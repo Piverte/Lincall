@@ -1,0 +1,154 @@
+/*
+ * 
+ * Feuille de style à appliquer sur l'application LinC'All
+ * 
+ */
+ 
+ /**********************************************************
+  * 				 Application Globale				   *
+  **********************************************************/
+.root {
+	-lincall-blue1 : #076BA9; /* Pantone 3005C */
+	-lincall-blue2 : #052147; /* Pantone 540C */
+	-lincall-blue3 : #011527; /* Pantone 5395C */
+	-lincall-blue4 : #0768A9; /* Pantone 3005C */
+	-lincall-blue5 : #2A8EBF; /* Pantone 299C */
+	
+	-lincall-blue-gradientH1 : linear-gradient(to right, -lincall-blue2 0%, -lincall-blue3 100%);
+	-lincall-blue-gradientH2 : linear-gradient(to right, -lincall-blue1 0%, -lincall-blue2 100%);
+	-lincall-blue-gradientH3 : linear-gradient(to right, -lincall-blue1 0%, -lincall-blue3 100%);
+	-lincall-blue-gradientH4 : linear-gradient(to right, -lincall-blue5 0%, -lincall-blue4 100%);
+	
+	-lincall-blue-gradientV1 : linear-gradient(to bottom, -lincall-blue2 0%, -lincall-blue3 100%);
+	-lincall-blue-gradientV2 : linear-gradient(to bottom, -lincall-blue1 0%, -lincall-blue2 100%);
+	-lincall-blue-gradientV3 : linear-gradient(to bottom, -lincall-blue1 0%, -lincall-blue3 100%);
+}
+
+#Background {
+    -fx-background-image: url("images/background_1920x1080.jpg");
+}
+
+#View-Background {
+	-fx-background-color: white;
+	-fx-background-radius: 10px;
+	-fx-opacity: 75%;
+}
+
+#Logo {
+	-fx-image: url("images/LinC'All_V1_transparent_mini.png");
+}
+
+ /**********************************************************
+  * 				 Page de connexion (login)			   *
+  **********************************************************/
+#Computer_Man-Picture {
+	-fx-image: url("images/bonhommePC.png");
+}
+
+/*********************** VBOX DATA *************************/
+#Login_Data-VBox {
+	
+}
+
+#Connection-Label {
+	/*-fx-font-family:-fx-alignment: "palatino linotype", palatino, serif; */
+	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: -lincall-blue1;
+}
+
+#Login-TextField {
+	
+}
+
+#Password-TextField {
+	
+}
+
+#IP_Address-TextField {
+	
+}
+
+#IP_Port-TextField {
+	
+}
+
+#Double_Dots {
+	-fx-font-size: 20px;
+}
+
+/********************** HBOX VALIDATION **********************/
+#Validation_Info-HBox {
+	
+}
+
+#Connection-Button {
+	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+	-fx-background-color: -lincall-blue1;
+}
+
+#Connection-Label-Small {
+	/*-fx-font-family:-fx-alignment: "palatino linotype", palatino, serif; */
+	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 15px;
+	-fx-text-fill: -lincall-blue1;
+}
+
+#Create_Account-Label {
+	/*-fx-font-family:-fx-alignment: "palatino linotype", palatino, serif; */
+	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: -lincall-blue1;	
+	-fx-border-color: transparent transparent -lincall-blue1 transparent;
+}
+
+ /**********************************************************
+  * 				 Page de chat publique				   *
+  **********************************************************/
+  /*********************** MENU BAR *************************/
+  #Menu_Bar-HBox {
+  	-fx-background-color: -lincall-blue-gradientH2;
+  }
+  
+  #MenuBar {
+  	-fx-background-color: transparent;
+  }
+  
+  #MenuBar .menu{
+  	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;	
+  }
+  #Log_Out-Button {
+  	-fx-background-color: transparent;
+  	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+  }
+  
+  /******************* COMMUNICATIONS VIEW *******************/
+  #Chat_Zone-TextArea {
+  	-fx-background-color: white;
+  	-fx-border-color: gray;
+  	-fx-border-width: 2px;
+  }
+  
+  #Send_Message-Button {
+  	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+	-fx-background-color: -lincall-blue1;
+  }
+  /********************** ONLINE USERS **********************/
+  #Online_Bar {
+  	-fx-background-color: -lincall-blue-gradientH2;
+  }
+  
+  #On_Line-Label {
+  	-fx-background-color: transparent;
+  	-fx-font-family: "lycidatypewriter", monospace;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+  }
