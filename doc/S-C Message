@@ -1,0 +1,15 @@
+Relation Package Message <=> N° Case
+
+Case 1 : KeepAlive
+Case 2 : Message
+Case 3 : MessageAuthentification
+Case 4 : MessageChangeStatut
+Case 5 : MessageConnection
+Case 6 : MessageCreateProfile
+Case 7 : MessageDeleteProfile
+Case 8 : MesageEditLogin
+Case 9 : MessageEditPassword
+Case 10 : MessagePrivate
+Case 11 : MessagePrivateList
+Case 12 : MessagePublic
+Case 13 : MessagePublicList
